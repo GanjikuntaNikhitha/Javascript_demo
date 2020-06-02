@@ -70,5 +70,34 @@ for (i=1; i<=5; i++) {
  }
 
 //  null and undefined
-var vasu 
+var vasu = 0;
 console.log(vasu)
+
+
+// intializaation arrays
+var arr  = ['niki','vasu','archi']
+// access of elements i an array
+console.log(arr);
+console.log(arr[1]);
+
+// changing an array
+var arr  = ['niki','vasu','archi']
+arr[0] = "unknown"
+console.log(arr);
+
+
+// objects
+var person = {firstName:"John", lastName:"Doe", age:46};
+console.log(person . lastName)
+
+// array properties
+var person = ['John', 'Doe','46' ,'12','54653', 'niagfd'];
+console.log(person.length)
+// accessing the first element of an array
+console.log(person[0]);
+
+// accessing the last element in array
+console.log(person[(person.length)-1]);
+
+
+
