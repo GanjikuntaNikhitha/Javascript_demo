@@ -56,3 +56,19 @@ switch (day) {
 for (i=1; i<=5; i++) {
    console.log(i);
  }
+
+ var numbers = (23+45)* 10;
+ console.log(numbers)
+
+ var num = 30;
+ if(num === 20){
+ console.log("true")
+ }
+ else {
+ console.log("failed")
+
+ }
+
+//  null and undefined
+var vasu 
+console.log(vasu)
